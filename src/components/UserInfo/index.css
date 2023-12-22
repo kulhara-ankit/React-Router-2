@@ -1,0 +1,44 @@
+/* Write your CSS code here */
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+}
+.profile-image {
+  width: 36%;
+}
+.profile-name {
+  font-size: 28px;
+  color: #12022f;
+  font-weight: 700;
+  font-family: 'Roboto';
+}
+profile-professional {
+  font-size: 28px;
+  color: #616e7c;
+  font-weight: 700;
+  font-family: 'Roboto';
+}
+@media screen and (max-width: 768px) {
+  .profile-image {
+    width: 50%;
+  }
+  .profile-name {
+    font-size: 18px;
+  }
+  .profile-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+  }
+  .profile-professional {
+    font-size: 12px;
+    color: #616e7c;
+    font-weight: 700;
+    font-family: 'Roboto';
+  }
+}
